@@ -11,17 +11,17 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+output_dir = "docs"
 theme = "sam"
 
 [extra]
 # Put all your custom variables here
-sam_menu = [
-    { text = "About", link = "/about" },
-    { text = "Posts", link = "/posts" },
-    # { text = "Portfolio", link = "/portfolio" },
-    { text = "Github", link = "https://github.com/kawadumax" },
-    { text = "Twitter", link = "https://twitter.com/nogiguchi_maru" },
-    { text = "Booth", link = "https://utsounds.booth.pm/" },
-    { text = "Soundcloud", link = "https://soundcloud.com/kawadumax/" },
-]
 home = "Home"
+sam_menu = [
+  {text = "About", link = "/about"},
+  {text = "Posts", link = "/posts"}, # { text = "Portfolio", link = "/portfolio" },
+  {text = "Github", link = "https://github.com/kawadumax"},
+  {text = "Twitter", link = "https://twitter.com/nogiguchi_maru"},
+  {text = "Booth", link = "https://utsounds.booth.pm/"},
+  {text = "Soundcloud", link = "https://soundcloud.com/kawadumax/"},
+]

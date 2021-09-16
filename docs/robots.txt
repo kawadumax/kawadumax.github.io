@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kawadumax.github.io/sitemap.xml

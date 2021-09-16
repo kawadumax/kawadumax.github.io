@@ -12,16 +12,16 @@ highlight_code = true
 build_search_index = false
 
 output_dir = "docs"
-theme = "sam"
+theme = "maru"
 
 [extra]
 # Put all your custom variables here
 home = "Home"
 sam_menu = [
-  {text = "About", link = "/about"},
-  {text = "Posts", link = "/posts"}, # { text = "Portfolio", link = "/portfolio" },
-  {text = "Github", link = "https://github.com/kawadumax"},
-  {text = "Twitter", link = "https://twitter.com/nogiguchi_maru"},
-  {text = "Booth", link = "https://utsounds.booth.pm/"},
-  {text = "Soundcloud", link = "https://soundcloud.com/kawadumax/"},
+  {text = "About", link = "/about", caption = "このサイトについて"},
+  {text = "Posts", link = "/posts", caption = "書き留めておきたいこと"}, # { text = "Portfolio", link = "/portfolio" },
+  {text = "Github", link = "https://github.com/kawadumax", caption = "プログラミングが結構すきです"},
+  {text = "Twitter", link = "https://twitter.com/nogiguchi_maru", caption = "猫、作編曲、文芸、くだらないこと"},
+  {text = "Booth", link = "https://utsounds.booth.pm/", caption = "電子アルバムを販売しています"},
+  {text = "Soundcloud", link = "https://soundcloud.com/kawadumax/", caption = "作った音楽たち"},
 ]

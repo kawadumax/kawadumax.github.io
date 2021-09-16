@@ -39,6 +39,7 @@
       <div class="big-link">
         <a href="{{ link.link }}"> {{ link.text }} </a>
       </div>
+      <span>{{link.caption}}</span>
       {% endfor %} {% else %} {% for current in section.subsections %} {% set
       current = get_section(path=current) %}
       <div class="big-link">

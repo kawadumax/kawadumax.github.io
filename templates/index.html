@@ -37,7 +37,7 @@
     <div class="section" id="splash">
       {% if config.extra.sam_menu %} {% for link in config.extra.sam_menu %}
       <div class="big-link">
-        <a href="{{ link.link }}"> {{ link.text }} </a>
+        <a href="{{ link.link }}">{{ link.text }}</a>
         <span>{{link.caption}}</span>
       </div>
       {% endfor %} {% else %} {% for current in section.subsections %} {% set

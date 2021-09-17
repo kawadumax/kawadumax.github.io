@@ -19,7 +19,8 @@ theme = "maru"
 home = "Home"
 sam_menu = [
   {text = "About", link = "/about", caption = "このサイトについて"},
-  {text = "Posts", link = "/posts", caption = "書き留めておきたいこと"}, # { text = "Portfolio", link = "/portfolio" },
+  {text = "Posts", link = "/posts", caption = "書き留めておきたいこと"},
+  {text = "Portfolio", link = "/portfolio", caption = "自作語り"},
   {text = "Github", link = "https://github.com/kawadumax", caption = "プログラミングが結構すきです"},
   {text = "Twitter", link = "https://twitter.com/nogiguchi_maru", caption = "猫、作編曲、文芸、くだらないこと"},
   {text = "Booth", link = "https://utsounds.booth.pm/", caption = "電子アルバムを販売しています"},
